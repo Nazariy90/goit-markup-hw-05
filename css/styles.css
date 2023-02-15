@@ -606,6 +606,7 @@ address {
     align-items: center;
     width: 264px;
     height: 112px;
+    border-radius: 4px;
 
     background-color: var(--color-F4F4FD);
     margin-bottom: 8px;
@@ -696,14 +697,14 @@ address {
     padding: 0;
     width: 24px;
     height: 24px;
-    transition: background-color var(--efect-transmision), border-color var(--efect-transmision);
+    transition: background-color var(--efect-transmision);
 
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     background-color: var(--color-404BBF);
-    border-color: var(--color-404BBF);
+
 }
 
 .modal-close-btn:hover .modal-close-btn-icon,
