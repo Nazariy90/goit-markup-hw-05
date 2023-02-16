@@ -382,6 +382,7 @@ address {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .services-list {
@@ -694,6 +695,7 @@ address {
     background-color: var(--color-E7E9FC);
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     padding: 0;
     width: 24px;
     height: 24px;
